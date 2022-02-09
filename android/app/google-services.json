@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417831969750",
+    "project_id": "tagmanager-13391",
+    "storage_bucket": "tagmanager-13391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417831969750:android:11abf304e59349bf46fa77",
+        "android_client_info": {
+          "package_name": "com.validus_coin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417831969750-94efaac4cvrg77q9395h79r1doiurdd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3VsCqjSiXPNabTE9WAjzzhXIzjqsTVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417831969750-94efaac4cvrg77q9395h79r1doiurdd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

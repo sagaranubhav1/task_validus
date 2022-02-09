@@ -86,43 +86,5 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  ///MAIN UI
-  Widget buildImageView(List<dynamic> imageList) {
-     final orientation = MediaQuery.of(context).orientation;
-    return Column(
-      children: [
-        Expanded(
-          child: GridView.builder(
-            shrinkWrap: true,
-            itemCount: imageList.length,
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: (orientation == Orientation.portrait) ? 2 : 3),
-            itemBuilder: (BuildContext context, int pos) {
-              return Container(
-                margin: const EdgeInsets.all(8.0),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    shape: BoxShape.rectangle,
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Colors.grey,
-                        blurRadius: 5.0,
-                        spreadRadius: 0.0,
-                        offset: Offset(
-                            2.0, 2.0), // shadow direction: bottom right
-                      )
-                    ],
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                padding: const EdgeInsets.all(8.0),
-                child: Container(),
-              );
-            },
-          ),
-        ),
-      ],
-    );
-  }
-
 
 }
